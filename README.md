@@ -6,5 +6,6 @@
 # [Norbert_Team](https://telegram.me/Norbert_Team)
 **نویسنده**
 
-[Mosi](https://telegram.me/PvNorbertBot)
-[Amir](https://telegram.me/Sudo_MinooTeam_Bot)
+# [Mosi](https://telegram.me/PvNorbertBot)
+
+# [Amir](https://telegram.me/Sudo_MinooTeam_Bot)
