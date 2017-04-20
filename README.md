@@ -4,7 +4,7 @@
 
 # [Minoo_Team](https://telegram.me/MinooTeam)
 # [Norbert_Team](https://telegram.me/Norbert_Team)
-**نویسنده**
+**نویسندگان**
 
 # [Mosi](https://telegram.me/PvNorbertBot)
 
