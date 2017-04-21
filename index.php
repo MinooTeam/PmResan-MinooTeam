@@ -83,7 +83,7 @@ $ban_all = file_get_contents("آدرس فایل txt بن ال");
 
 ⚛ برای ساخت ربات دکمه (☢ساخت ربات) رو بزنید
 
-🆔 @PvNorbertBot","html","true",$button_official_admin);
+🆔 @PmResan_MinooTeam_Bot","html","true",$button_official_admin);
 	}else{
 	SendMessage($chat_id,"ســلام👋😉
 
@@ -93,14 +93,14 @@ $ban_all = file_get_contents("آدرس فایل txt بن ال");
 
 ⚛ برای ساخت ربات دکمه (☢ساخت ربات) رو بزنید
 
-🆔 @PvNorbertBot","html","true",$button_official);
+🆔 @PmResan_MinooTeam_Bot","html","true",$button_official);
 	}
 	}
 	//===============
 	elseif($tch != 'member' && $tch != 'creator' && $tch != 'administrator'){
 	SendMessage($chat_id,"📛 برای حمایت از ما و همچنان ربات ابتدا وارد کانال زیر بشید 👇
 
-🆔 @Norbert_Team
+🆔 @MinooTeam
 
 ✅ سپس روی JOIN بزنید و به ربات برگشته عبارت 👇
 
@@ -184,11 +184,11 @@ Sorry, this username is already taken. Please try something different.
 7⃣ سپس پیام آخری که از ربات ( @BotFather ) دریافت کردید رو فوروارد کنید
 8⃣ ربات شما با موفقیت ثبت شد
 
-🆔 @Norbert_Team","html","true");
+🆔 @MinooTeam","html","true");
   }
   //===============
   elseif($text == '⚜حساب ویژه'){
- ForwardMessage($chat_id,"@Norbert_Team","175");
+ ForwardMessage($chat_id,"@MinooTeam","3");
   }
   //================
   elseif($command == 'gold acc 20'){
@@ -205,7 +205,7 @@ Sorry, this username is already taken. Please try something different.
   //===============
   elseif($text == '👥پشتیبانی'){
   SendMessage($chat_id,"🔸 دوست عزیز تمام نظراتتون رو میتونید به ربات زیر بفرستید ما 24 ساعته پاسخگوی شما هستیم و برای حل مشکل شما آماده ایم👇
-🆔 @MosiDevBot","html","true");
+🆔 @Sudo_MinooTeam_Bot","html","true");
   }
   //===============
   elseif($text == '⛔️قوانین'){
@@ -218,11 +218,11 @@ Sorry, this username is already taken. Please try something different.
 ☢ در صورت مشاهده استفاده از قابلیت های ربات در جهات منفی به شدت برخورد میشود.
 ☢ اگر به هر دلیلی درخواست های ربات شما به سرور ما بیش از حد معمول باشد (و حساب ربات ویژه نباشد) چند باری به شما اخطار داده میشود اگر این اخطار ها نادیده گرفته شوند ربات شما مسدود و به هیچ عنوان از محدودیت خارج نمیشود.
 
-🆔 @Norbert_Team","html","true");
+🆔 @MinooTeam","html","true");
   }
   //===============
   elseif($text == '❇️امکانات'){
-  ForwardMessage($chat_id,"@Norbert_Team","175");
+  ForwardMessage($chat_id,"@MinooTeam","3");
   }
   //===============
   elseif($text == '⭕️گزارش تخلف'){
@@ -290,7 +290,7 @@ Sorry, this username is already taken. Please try something different.
   SendMessage($chat_id,"✅ ربات شما با موفقیت آپدیت شد.
 
 ✴️ به ربات ما امتیاز بدین👇
-🌐 https://telegram.me/storebot?start=PvNorbertBot
+🌐 https://telegram.me/storebot?start=PmResan_MinooTeam_Bot
 
 🤖 برای ورود به ربات خود کلیک کنید😀👇","html","true",json_encode(['inline_keyboard'=>[[['text'=>"🔯 @$username_bot",'url'=>"https://telegram.me/$username_bot"]],]]));
   SendMessage($chat_id,"↩️ به منوی اصلی برگشتید
@@ -300,7 +300,7 @@ Sorry, this username is already taken. Please try something different.
 	  
 	  if($create == 'true' and $from_id != $admin){
 		  save('administrative/user/'.$from_id."/command.txt","none");
-  SendMessage($chat_id,"⭕️ دوست عزیز شما قبلا یک ربات ساخته اید برای ربات دوم باید مبلغ 3,000 تومن پرداخت کنید.برای اطلاعات بیشتر به @MosiDevBot مراجعه کنید","html","true",$button_official);
+  SendMessage($chat_id,"⭕️ دوست عزیز شما قبلا یک ربات ساخته اید برای ربات دوم باید مبلغ 3,000 تومن پرداخت کنید.برای اطلاعات بیشتر به @Sudo_MinooTeam_Bot مراجعه کنید","html","true",$button_official);
   }else{
 	  
   $pmtext = "{✅ ربات ساخته شد توسط 👈 ($username)}{🤖 ربات مربوطه 👈 (@$username_bot)}{⏰ زمان 👈 ($time)}{📅 تاریخ 👈 ($date)}";
